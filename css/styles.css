@@ -1,0 +1,168 @@
+#title {
+  background-color: #ff4c68;
+  color: #ffff;
+}
+
+
+body{
+  font: Montserrat;
+}
+
+h1 {
+  font: Montserrat-black;
+  font-weight: 700;
+  font-size: 4rem;
+  line-height: 1.5;
+}
+
+h2, h3, h3, h4, h5, h6{
+  font: Montserrat-black;
+}
+
+.container-fluid{
+  padding: 3% 15% 3% 15%;
+}
+
+.navbar-brand {
+  font-family: Ubuntu;
+  font-size: 2.5em;
+  font-weight: bold;
+}
+
+.navbar {
+  padding-bottom: 4.5rem;
+}
+
+.nav-item{
+  padding: 0 18px;
+  font-size: 1.5rem;
+  font-family: Montserrat-light;
+}
+
+.down-button{
+  margin: 5% 3% 5% 0;
+}
+
+.title-image{
+  width: 60%;
+  transform: rotate(5deg);
+  position: relative;
+  left:100px;
+}
+#features{
+
+  background-color: white;
+  position: relative;
+  z-index: 1;
+}
+#features .Features-image{
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.Features-image:hover{
+  color: #ff4c68;
+}
+.features-font{
+  font-family: Montserrat-bold;
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.features-font-2{
+  color: #8f8f8f;
+}
+
+.features-box{
+  text-align: center;
+  padding: 4%;
+}
+
+#testimonials{
+  background-color: #ff4c68;
+  color: #ffff;
+  text-align: center;
+  line-height: 1.6;
+}
+
+.testimonials-h2{
+  font-family: Montserrat-black;
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 5%;
+}
+
+.testimonials-image{
+  width: 15%;
+  border-radius: 100%;
+  margin-right: 3%;
+}
+
+#press{
+  background-color: #ff4c68;
+  text-align: center;
+  padding-bottom: 5%;
+}
+
+.press-pics{
+width: 15%;
+margin: 30px 30px 20px 30px;
+}
+
+.card-text{
+  text-align: center;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.pricing-h2{
+  font-family: Montserrat-black;
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.pricing-para{
+  font-size: 1.5rem;
+  color: #8f8f8f;
+}
+
+.pricing-heading{
+  text-align: center;
+}
+
+@media (max-width:1028px ) {
+  #Title{
+    text-align: center;
+  }
+  .title-image{
+    transform: rotate(0);
+  }
+}
+#cta{
+  background-color: #ff4c68;
+  text-align: center;
+}
+.cta-h1{
+  font-family: Montserrat-black;
+  font-weight: 700;
+  color: #ffff;
+  font-size: 3rem;
+}
+
+.cta-button{
+  margin: 2% 1.5% 2% 1.5%;
+}
+#footer{
+  text-align: center;
+  background-color: #ffff;
+}
+.para-footer{
+  color: #8f8f8f;
+  font-size: 1.3rem;
+}
+
+.footer_image{
+  color: #495464;
+  margin-left: 0.3%;
+  margin-right: 0.3%;
+}
